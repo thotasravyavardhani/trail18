@@ -1,0 +1,47 @@
+{
+  "name": "qumail-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "axios": "^1.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-hook-form": "^7.48.2",
+    "react-router-dom": "^6.20.1",
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "BROWSER=none HOST=0.0.0.0 PORT=5000 DANGEROUSLY_DISABLE_HOST_CHECK=true react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8000",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "serve": "^14.2.5"
+  }
+}
